@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Simon-Game</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="index.css" />
+
+
+</head>
+
+<body>
+    <div class="gamecontainer">
+        <div id="knobs">
+            <div class="squares greenPlace"></div>
+            <div class="squares redPlace"></div>
+            <div class="squares bluePlace"></div>
+            <div class="squares yellowPlace"></div>
+
+        </div>
+
+        <div id="counter">
+            <div id="number-box"></div>
+            <!--  <div id="report">Great Job!!!!</div>  -->
+            <!-- <progress max="100" value="40"></progress> -->
+
+        </div>
+        <div id="allswitch">
+
+            <div class="start">
+                <input name="group1" type="radio" id="test1" />
+                <label for="test1">START</label>
+
+            </div>
+
+            <div class="stop">
+                <input name="group1" type="radio" id="test2" />
+                <label for="test2">STOP</label>
+            </div>
+
+            <div class="strict">
+                <input name="group1" type="radio" id="test3" />
+                <label for="test2">STRICT</label>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="read2.js"></script>
+</body>
+
+</html>
